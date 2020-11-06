@@ -8,11 +8,29 @@
         <link rel="stylesheet" href="./style/main.css">
 
         <!--Projeto de recriar a Página Inicial do NETFLIX --> 
-        <!--Imagens e referências: themoviedb.org-->
+        <!--Imagens e referências: https://themoviedb.org -->
+        <!--Botões: https://fontawesome.com -->
+
+
+        <!--Owl - Carrossel: https://owlcarousel2.github.io/OwlCarousel2/ -->
+        <link rel="stylesheet" href="./style/owl/owl.carousel.min.css">
+        <link rel="stylesheet" href="./style/owl/owl.theme.default.min.css">
+
+            <!--Owl - Responsividade -->
+            <link rel="stylesheet" href="./style/responsive.css">
+
+
         <title >NETFLIX Clone</title>
         
     </head>
     <body>
+
+        <script src="./js/owl/setup.js"></script>
+        <script src="https://kit.fontawesome.com/af66842f55.js" crossorigin="anonymous"></script>
+
+        <!--Owl - Carrossel: https://owlcarousel2.github.io/OwlCarousel2/ -->
+        <script src="./js/owl/jquery.min.js"></script>
+        <script src="./js/owl/owl.carousel.min.js"></script>
 
         <header>
             <div class="container">
@@ -28,72 +46,79 @@
 
                 </nav>
 
-
-
             </div>
-
-
 
         </header>
 
+        <main>
 
-        <div class="instagram-wrapper">
+            <div class="filme-principal">
+                <div class="container">
+                    <h2 class="titulo-filme-principal">HOUSE OF CARDS</h2>
+                    <p class="sinopse-filme-principal">Um político inescrupuloso não mede esforços para conquistar o poder nos EUA neste drama vencedor do Emmy e do Globo de Ouro.
 
-            <div class="instagram-phone">
-                <img src="./img/instagram-celular.png" alt="Imagem do Iphone com o Instagram na tela.">
 
-                
+                    </p>
+
+
+                    <div class="botoes">
+                        <button role="button" class="botao">
+                            <i class="fas fa-play"></i>
+                            ASSISTIR AGORA
+                        </button>
+        
+                        <button role="button" class="botao">
+                            <i class="fas fa-info-circle"></i>
+                            MAIS INFORMAÇÕES
+                        </button>
+                    </div>
+
+
+                </div>
+
+    
             </div>
 
 
-            <div class="instagram-login">
-                
-
-                <div class="grupo">
-
-                    <img src="./img/instagram-logo.png" class="instragram-logo" alt="Imagem da Logo do Instragram.">
+        </main>
 
 
-                    <div class="perfil-foto">
-                        <img src="./img/perfil-instagram.jpg" alt="Foto do meu perfil.">
-                    </div>
+        <div class="mini-carrossel">
 
-                <a href="#" class="botao-login">Continuar como @alexandrefranca</a>
-                    <a href="#" class="botao-logout">Sair da conta</a>
-
-
+        
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <img class="img-miniaturas" src="./img/mini-1.jpg">
                 </div>
-
-
-                
-                <div class="grupo">                    
-                             
-                    <p class="nao-logar">Não é @alexandrefranca?</p>
-
-                        <span class="link-blue">Alternar contas</span>
-
-                        ou
-
-                        <span class="link-blue">Inscreva-se</span>          
-
+                <div class="item">
+                    <img class="img-miniaturas" src="./img/mini-2.jpg">
                 </div>
-
-
-                <div class="get-the-app">
-                             
-                    <p class="get-app">Baixe o aplicativo</p>
-
-                    
-                    <div class="download">
-                        
-                        <a href="#" class="app-download"></a>
-                        <a href="#"class="app-download"></a>
-
-
-                    </div>
-
-                  
-
+                <div class="item">
+                    <img class="img-miniaturas" src="./img/mini-3.jpg">
+                </div>
+                <div class="item">
+                    <img class="img-miniaturas" src="./img/mini-4.jpg">
+                </div>
+                <div class="item">
+                    <img class="img-miniaturas" src="./img/mini-5.jpg">
+                </div>
+                <div class="item">
+                    <img class="img-miniaturas" src="./img/mini-6.jpg">
+                </div>
+                <div class="item">
+                    <img class="img-miniaturas" src="./img/mini-7.jpg">
+                </div>
+                <div class="item">
+                    <img class="img-miniaturas" src="./img/mini-8.jpg">
+                </div>
+                <div class="item">
+                    <img class="img-miniaturas" src="./img/mini-9.jpg">
+                </div>
+                <div class="item">
+                    <img class="img-miniaturas" src="./img/mini-10.jpg">
+                </div>
+                <div class="item">
+                    <img class="img-miniaturas" src="./img/mini-11.jpg">
                 </div>
 
 
@@ -101,9 +126,10 @@
 
 
         </div>
-       
+    
 
     </body>
 
 
+    
 </html>

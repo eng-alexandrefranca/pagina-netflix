@@ -6,46 +6,42 @@
 }
 
 
-
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    text-decoration: none;
-    
+    text-decoration: none;    
     font-size: 14px;
+
 
 }
 
-
+/*Main*/
 
 body{
     background-color: var(--preto);
-    font-family: 'Times New Roman', Times, serif;
-
+    font-family: 'Arial', Times, serif;
+    color:white;
 
 
 }
-
 
 
 header .container{
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
+    align-items: center;/*Vertical*/
+    justify-content: space-between;/*Horizontal*/
 
 
 }
+
 
 header .logo{
     color: var(--vermelho);
     font-family: 'Arial Black', times;
     font-size: 40px;
     margin-left: 5px;
-
-
-
 
 
 }
@@ -57,17 +53,110 @@ header nav a{
     margin-right: 10px;
 
 
-
 }
 
 
 header nav a:hover{
-
     color: #FFF;
+
+
+}
+
+
+.container{
+    margin-left: 30px;
+
+
+}
+
+
+/*Filme principal*/
+
+.filme-principal{
+    display:flex;
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50),100%);
+    background-image: url('/img/capa-house.jpg');
+    height: 1200px; 
+    background-size: cover;
+    flex-direction: column;
+    justify-content:center;/*Vertical*/
+    align-items: flex-start;
+
+
+}
+
+
+.titulo-filme-principal{
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 15%;
+    background-color: rgba(0,0,0,.30);
+
+
+}
+
+
+.filme-principal .sinopse-filme-principal{
+    margin-bottom: 40px;    
+    background-color: rgba(0,0,0,.30);
+
+
+}
+
+
+.filme-principal .container{
+    width: 70%;
+    margin-top: 40%;
+
+
+}
+
+
+/*Botões*/
+
+.botao{
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    margin-right: 15px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: 0.3s ease all;
+
+
+}
+
+
+.botao i{
+    margin-right: 8px;
+
+
+}
+
+
+.botao:hover{
+    background-color: white;
+    color: black;
+
+
+}
+
+
+/*Miniaturas*/
+
+
+.img-miniaturas{
+    height: 100%;
+    width: 100%;
+    display: block;
+
 
 
 
 }
+
 
 
 
